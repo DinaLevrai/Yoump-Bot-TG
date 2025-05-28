@@ -1,0 +1,27 @@
+{
+  "name": "yoump_tgbot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Bot Telegram per convertire video YouTube in MP3",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "node-telegram-bot-api": "^0.64.0",
+    "play-dl": "^1.9.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
